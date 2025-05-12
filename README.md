@@ -1,2 +1,2 @@
-# -local_manifest
+# local_manifest
 Custom ROM build
