@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="git"
+          fetch="https://github.com/"
+          clone-depth="1" />
+     
+    <!-- Cloning device tree -->
+    <project path="device/xiaomi/garnet" name="GarnetDevTrees/device_xiaomi_garnet" remote="git" revision="lineage-22.2" />
+
+    <!-- Cloning vendor tree -->
+    <project path="vendor/xiaomi/garnet" name="GarnetDevTrees/vendor_xiaomi_garnet" remote="git" revision="fifteen" />
+
+    <!-- Cloning kernel tree -->
+    <project path="device/xiaomi/garnet-prebuilt" name="GarnetDevTrees/kernel_xiaomi_garnet" remote="git" revision="fifteen" />
+    
+    <!-- Cloning Xiaomi Hardware -->
+    <project name="GarnetDevTrees/hardware_xiaomi" path="hardware/xiaomi" remote="git" revision="fifteen" />
+   
+    <!-- Cloning Audio Hals -->
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_agm" />
+    <project name="Garnet-DarkSide/vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8450/audio/agm" remote="git" revision="15" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" />
+    <project name="Garnet-DarkSide/vendor_qcom_opensource_audioreach-graphservices" path="hardware/qcom-caf/sm8450/audio/graphservices" remote="git" revision="15" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_arpal-lx" />
+    <project name="Garnet-DarkSide/vendor_qcom_opensource_arpal-lx" path="hardware/qcom-caf/sm8450/audio/pal" remote="git" revision="15" />
+
+    <!-- Cloning MiuiCamera -->
+    <project name="stuff-garnet/vendor_xiaomi_miuicamera-garnet" path="vendor/xiaomi/miuicamera-garnet" remote="git" revision="fifteen" />
+    <project name="stuff-garnet/device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="git" revision="fifteen" />
+
+    <!-- Cloning ViPER4AndroidFX -->
+    <project name="GarnetDevTrees/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="git" revision="fifteen" />
+    
+</manifest>
