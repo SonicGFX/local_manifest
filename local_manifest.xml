@@ -11,14 +11,14 @@
           clone-depth="1" />
      
     <!-- Sync trees -->
-    <project path="device/xiaomi/garnet" name="GarnetDevTrees/device_xiaomi_garnet" remote="all" revision="a16" />
-    <project path="vendor/xiaomi/garnet" name="SenseiDEVLinux/vendor_xiaomi_garnet15" remote="all" revision="5" />
+    <project path="device/xiaomi/garnet" name="GarnetDevTrees/device_xiaomi_garnet" remote="all" revision="dolby" />
+    <project path="vendor/xiaomi/garnet" name="SenseiDEVLinux/vendor_xiaomi_garnet15" remote="all" revision="dolby" />
     <project path="device/xiaomi/garnet-prebuilt" name="GarnetDevTrees/android_xiaomi_kernel_garnet" remote="all" revision="15.0" />
     
     <!-- Cloning Xiaomi Hardware -->
     <project name="GarnetDevTrees/hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="fifteen" />
 
-    <!-- Cloning Audio Hals -->
+     <!-- Cloning Audio Hals -->
     <remove-project name="LineageOS/android_vendor_qcom_opensource_agm" />
     <project name="Garnet-DarkSide/vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8450/audio/agm" remote="all" revision="15" />
     <remove-project name="LineageOS/android_vendor_qcom_opensource_audioreach-graphservices" />
@@ -30,4 +30,29 @@
     <project name="los-garnet/device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="all" revision="lineage-22.2" />
     <project name="ramaadni/vendor_xiaomi_miuicamera-garnet" path="vendor/xiaomi/miuicamera-garnet" remote="cod" revision="lineage-22.2" />
 
+     <remove-project name="crdroidandroid/android_frameworks_base" />
+    <project name="Project-SenseiDev/android_frameworks_base" path="frameworks/base" remote="all" revision="15.0" />
+
+    <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
+    <project name="Project-SenseiDev/android_packages_apps_crDroidSettings" path="packages/apps/crDroidSettings" remote="all" revision="15.0" />
+    <remove-project name="crdroidandroid/android_packages_apps_Updater" />
+    <project name="OtherFiles/android_packages_apps_Updater" path="packages/apps/Updater" remote="all" revision="15.0" />
+
+    <remove-project name="crdroidandroid/android_vendor_crdroid" />
+    <project name="OtherFiles/android_vendor_crdroid" path="vendor/lineage" remote="all" revision="15.0" />
+
+     <remove-project name="crdroidandroid/android_packages_inputmethods_LatinIME" />
+    <project name="SenseiDEVLinux/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="all" revision="15.0" />
+
+     <remove-project name="LineageOS/android_build_release" />
+    <project name="Project-SenseiDev/android_build_release" path="build/release" remote="all" revision="lineage-22.2" />
+
+     <remove-project name="crdroidandroid/android_packages_apps_Launcher3" />
+    <project name="OtherFiles/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="all" revision="test" />
+
+     <remove-project name="crdroidandroid/android_packages_apps_Settings" />
+    <project name="SenseiDEVLinux/android_packages_apps_Settings_cr" path="packages/apps/Settings" remote="all" revision="15.0" />
+
+     <!-- Gapps -->
+    <project name="SenseiDEVLinux/PicoGapps" path="vendor/gapps" remote="cod" revision="vic" />
 </manifest>
