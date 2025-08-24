@@ -29,12 +29,7 @@
     <!-- Cloning MiuiCamera -->
     <project name="los-garnet/device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="all" revision="lineage-22.2" />
     <project name="ramaadni/vendor_xiaomi_miuicamera-garnet" path="vendor/xiaomi/miuicamera-garnet" remote="cod" revision="lineage-22.2" />
-
-     <remove-project name="crdroidandroid/android_frameworks_base" />
-    <project name="Project-SenseiDev/android_frameworks_base" path="frameworks/base" remote="all" revision="15.0" />
-
-    <remove-project name="crdroidandroid/android_packages_apps_crDroidSettings" />
-    <project name="Project-SenseiDev/android_packages_apps_crDroidSettings" path="packages/apps/crDroidSettings" remote="all" revision="15.0" />
+     
     <remove-project name="crdroidandroid/android_packages_apps_Updater" />
     <project name="OtherFiles/android_packages_apps_Updater" path="packages/apps/Updater" remote="all" revision="15.0" />
 
