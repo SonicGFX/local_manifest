@@ -33,9 +33,6 @@
     <remove-project name="crdroidandroid/android_packages_apps_Updater" />
     <project name="OtherFiles/android_packages_apps_Updater" path="packages/apps/Updater" remote="all" revision="15.0" />
 
-    <remove-project name="crdroidandroid/android_vendor_crdroid" />
-    <project name="OtherFiles/android_vendor_crdroid" path="vendor/lineage" remote="all" revision="15.0" />
-
      <remove-project name="crdroidandroid/android_packages_inputmethods_LatinIME" />
     <project name="SenseiDEVLinux/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="all" revision="15.0" />
 
