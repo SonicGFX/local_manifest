@@ -42,9 +42,6 @@
      <remove-project name="crdroidandroid/android_lineage-sdk" />
     <project name="Project-SenseiDev/android_lineage-sdk" path="lineage-sdk" remote="all" revision="15.0" />
 
-     <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
-    <project name="Project-SenseiDev/android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="all" revision="lineage-22.2" />
-
      <remove-project name="crdroidandroid/android_device_crdroid_sepolicy" />
     <project name="Project-SenseiDev/android_device_crdroid_sepolicy" path="device/lineage/sepolicy" remote="all" revision="15.0" />
      
