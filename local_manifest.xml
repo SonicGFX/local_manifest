@@ -40,7 +40,7 @@
     <project name="Project-SenseiDev/android_vendor_crdroid" path="vendor/lineage" remote="all" revision="15.0" />
 
      <remove-project name="crdroidandroid/android_lineage-sdk" />
-    <project name="Project-SenseiDev/android_lineage-sdk" path="lineage-sdk" remote="all" revision="15.0" />
+    <project name="SonicGFX/android_lineage-sdk" path="lineage-sdk" remote="all" revision="15.0" />
 
      <remove-project name="crdroidandroid/android_device_crdroid_sepolicy" />
     <project name="Project-SenseiDev/android_device_crdroid_sepolicy" path="device/lineage/sepolicy" remote="all" revision="15.0" />
