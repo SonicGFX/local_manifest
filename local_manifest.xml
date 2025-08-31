@@ -11,8 +11,8 @@
           clone-depth="1" />
      
     <!-- Sync trees -->
-    <project path="device/xiaomi/garnet" name="GarnetDevTrees/device_xiaomi_garnet" remote="all" revision="dolby" />
-    <project path="vendor/xiaomi/garnet" name="SenseiDEVLinux/vendor_xiaomi_garnet15" remote="all" revision="dolby" />
+    <project path="device/xiaomi/garnet" name="GarnetDevTrees/device_xiaomi_garnet" remote="all" revision="test" />
+    <project path="vendor/xiaomi/garnet" name="SenseiDEVLinux/vendor_xiaomi_garnet15" remote="all" revision="test" />
     <project path="device/xiaomi/garnet-prebuilt" name="GarnetDevTrees/android_xiaomi_kernel_garnet" remote="all" revision="15.0" />
     
     <!-- Cloning Xiaomi Hardware -->
