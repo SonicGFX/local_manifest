@@ -18,6 +18,8 @@
     <!-- Cloning Xiaomi Hardware -->
     <project name="GarnetDevTrees/hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="fifteen" />
 
+     <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
+     
      <!-- Cloning Audio Hals -->
     <remove-project name="LineageOS/android_vendor_qcom_opensource_agm" />
     <project name="Garnet-DarkSide/vendor_qcom_opensource_agm" path="hardware/qcom-caf/sm8450/audio/agm" remote="all" revision="15" />
