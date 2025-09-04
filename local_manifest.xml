@@ -16,9 +16,7 @@
     <project path="device/xiaomi/garnet-prebuilt" name="GarnetDevTrees/android_xiaomi_kernel_garnet" remote="all" revision="15.0" />
     
     <!-- Cloning Xiaomi Hardware -->
-    <project name="GarnetDevTrees/hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="fifteen" />
-
-     <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
+    <project name="GarnetDevTrees/hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="000" />
      
      <!-- Cloning Audio Hals -->
     <remove-project name="LineageOS/android_vendor_qcom_opensource_agm" />
