@@ -12,7 +12,7 @@
      
      <!-- Sync trees -->
     <project path="device/xiaomi/garnet" name="GarnetHub/android_device_xiaomi_garnet" remote="all" revision="lineage-22.2" />
-    <project path="vendor/xiaomi/garnet" name="GarnetHub/vendor_xiaomi_garnet" remote="all" revision="lineage-22.2" />
+    <project path="vendor/xiaomi/garnet" name="garnet-random/proprietary_vendor_xiaomi_garnet" remote="all" revision="lineage-22.2" />
     
     <!-- Kernel trees -->
     <project path="kernel/xiaomi/sm7435" name="GarnetHub/xiaomi_sm7435" remote="all" revision="lineage-22.2" />
