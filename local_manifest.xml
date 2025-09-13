@@ -42,9 +42,6 @@
     <project name="Project-SenseiDev/android_device_crdroid_sepolicy" path="device/lineage/sepolicy" remote="all" revision="15.0" />
 
      <project name="SenseiDEVLinux/PicoGapps" path="vendor/gapps" remote="cod" revision="vic" />
-     
-     <remove-project name="LineageOS/android_build_release" />
-    <project name="Project-SenseiDev/android_build_release" path="build/release" remote="all" revision="lineage-22.2" />
 
      <remove-project name="crdroidandroid/android_packages_apps_Launcher3" />
     <project name="OtherFiles/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="all" revision="test" />
