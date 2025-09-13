@@ -43,9 +43,6 @@
 
      <project name="SenseiDEVLinux/PicoGapps" path="vendor/gapps" remote="cod" revision="vic" />
 
-     <remove-project name="crdroidandroid/android_packages_apps_Launcher3" />
-    <project name="OtherFiles/android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="all" revision="test" />
-
      <remove-project name="crdroidandroid/android_packages_apps_Settings" />
     <project name="Project-SenseiDev/android_packages_apps_Settings" path="packages/apps/Settings" remote="all" revision="15.0" />
 
