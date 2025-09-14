@@ -32,9 +32,6 @@
      <remove-project name="crdroidandroid/android_packages_inputmethods_LatinIME" />
     <project name="SenseiDEVLinux/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="all" revision="15.0" />
 
-     <remove-project name="crdroidandroid/android_vendor_crdroid" />
-    <project name="Project-SenseiDev/android_vendor_crdroid" path="vendor/lineage" remote="all" revision="15.0" />
-
      <remove-project name="crdroidandroid/android_lineage-sdk" />
     <project name="SonicGFX/android_lineage-sdk" path="lineage-sdk" remote="all" revision="15.0" />
 
