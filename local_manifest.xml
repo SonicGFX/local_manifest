@@ -12,7 +12,7 @@
      
      <!-- Sync trees -->
     <project path="device/xiaomi/garnet" name="GarnetHub/android_device_xiaomi_garnet" remote="all" revision="lineage-22.2" />
-    <project path="vendor/xiaomi/garnet" name="GarnetHub/vendor_xiaomi_garnet" remote="all" revision="lineage-22.2" />
+    <project path="vendor/xiaomi/garnet" name="garnet-random/proprietary_vendor_xiaomi_garnet" remote="all" revision="lineage-22.2" />
     
     <!-- Kernel trees -->
     <project path="kernel/xiaomi/sm7435" name="GarnetHub/xiaomi_sm7435" remote="all" revision="lineage-22.2" />
@@ -21,6 +21,7 @@
     
     <!-- Xiaomi Hardware -->
     <project name="GarnetHub/hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="lineage-22.2" />
+     <project name="xiaomi-sm8450-marble/android_packages_apps_JamesDSPManager" path="packages/apps/JamesDSPManager" remote="all" revision="15-qpr2" />
     
     <!-- MiuiCamera -->
     <project name="los-garnet/device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="all" revision="lineage-22.2" />
