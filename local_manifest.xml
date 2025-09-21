@@ -21,7 +21,7 @@
     
     <!-- Xiaomi Hardware -->
     <project name="GarnetHub/hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="lineage-22.2" />
-     <project name="xiaomi-sm8450-marble/android_packages_apps_JamesDSPManager" path="packages/apps/JamesDSPManager" remote="all" revision="15-qpr2" />
+     <project name="GuidixX/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="all" revision="v4a" />
     
     <!-- MiuiCamera -->
     <project name="los-garnet/device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="all" revision="lineage-22.2" />
