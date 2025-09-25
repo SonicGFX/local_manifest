@@ -21,6 +21,7 @@
     
     <!-- Xiaomi Hardware -->
     <project name="GarnetHub/hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="lineage-22.2" />
+     <project name="Evolution-X-Devices/hardware_dolby" path="hardware/dolby" remote="all" revision="bka-aospa" />
 
     <!-- MiuiCamera -->
     <project name="los-garnet/device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="all" revision="lineage-22.2" />
