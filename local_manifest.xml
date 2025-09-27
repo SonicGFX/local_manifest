@@ -12,7 +12,7 @@
      
      <!-- Sync trees -->
     <project path="device/xiaomi/garnet" name="GarnetHub/android_device_xiaomi_garnet" remote="all" revision="lineage-22.2" />
-    <project path="vendor/xiaomi/garnet" name="Evolution-X-Devices/vendor_xiaomi_garnet" remote="all" revision="bka" />
+    <project path="vendor/xiaomi/garnet" name="GarnetHub/v_xiaomi_garnet" remote="all" revision="lineage-22.2" />
     
     <!-- Kernel trees -->
     <project path="kernel/xiaomi/sm7435" name="GarnetHub/xiaomi_sm7435" remote="all" revision="lineage-22.2" />
@@ -21,7 +21,6 @@
     
     <!-- Xiaomi Hardware -->
     <project name="GarnetHub/hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="lineage-22.2" />
-     <project name="Evolution-X-Devices/hardware_dolby" path="hardware/dolby" remote="all" revision="bka-aospa" />
 
     <!-- MiuiCamera -->
     <project name="los-garnet/device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="all" revision="lineage-22.2" />
