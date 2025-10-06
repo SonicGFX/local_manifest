@@ -15,9 +15,9 @@
     <project path="vendor/xiaomi/garnet" name="SenseiDEVLinux/vv" remote="all" revision="lineage-22.2" />
     
     <!-- Kernel trees -->
-    <project path="kernel/xiaomi/sm7435" name="GarnetHub/xiaomi_sm7435" remote="all" revision="lineage-22.2" />
-    <project path="kernel/xiaomi/sm7435-modules" name="garnet-random/android_kernel_xiaomi_sm7435-modules" remote="all" revision="lineage-22.2" />
-    <project path="kernel/xiaomi/sm7435-devicetrees" name="garnet-random/android_kernel_xiaomi_sm7435-devicetrees" remote="all" revision="lineage-22.2" />
+    <project path="kernel/xiaomi/sm7435" name="GarnetHub/7435" remote="all" revision="lineage-23.0" />
+    <project path="kernel/xiaomi/sm7435-modules" name="garnet-random/android_kernel_xiaomi_sm7435-modules" remote="all" revision="lineage-23.0" />
+    <project path="kernel/xiaomi/sm7435-devicetrees" name="garnet-random/android_kernel_xiaomi_sm7435-devicetrees" remote="all" revision="lineage-23.0" />
     
     <!-- Xiaomi Hardware -->
     <project name="GarnetHub/hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="lineage-22.2" />
@@ -33,15 +33,6 @@
      <remove-project name="crdroidandroid/android_packages_inputmethods_LatinIME" />
     <project name="SenseiDEVLinux/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="all" revision="15.0" />
 
-     <remove-project name="crdroidandroid/android_lineage-sdk" />
-    <project name="SonicGFX/android_lineage-sdk" path="lineage-sdk" remote="all" revision="15.0" />
-
-     <remove-project name="crdroidandroid/android_device_crdroid_sepolicy" />
-    <project name="Project-SenseiDev/android_device_crdroid_sepolicy" path="device/lineage/sepolicy" remote="all" revision="15.0" />
-
      <project name="SenseiDEVLinux/PicoGapps" path="vendor/gapps" remote="cod" revision="vic" />
-
-     <remove-project name="crdroidandroid/android_packages_apps_Settings" />
-    <project name="Project-SenseiDev/android_packages_apps_Settings" path="packages/apps/Settings" remote="all" revision="15.0" />
 
 </manifest>
