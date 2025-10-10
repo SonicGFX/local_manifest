@@ -35,4 +35,6 @@
 
      <project name="SenseiDEVLinux/PicoGapps" path="vendor/gapps" remote="cod" revision="vic" />
 
+     <remove-project name="vendor_gms" />
+
 </manifest>
