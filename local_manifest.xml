@@ -9,15 +9,19 @@
      <remote name="lab"
         fetch="https://gitlab.com/"
         clone-depth="1" />
+
+     <remote name="cod"
+          fetch="https://codeberg.org/"
+          clone-depth="1" />
      
      <!-- Sync trees -->
     <project path="device/xiaomi/garnet" name="GarnetHub/android_device_xiaomi_garnet_A16" remote="all" revision="16.0" />
     <project path="vendor/xiaomi/garnet" name="garry-rogov/proprietary_vendor_xiaomi_garnet" remote="all" revision="16.0" />
     
     <!-- Kernel trees -->
-    <project path="kernel/xiaomi/sm7435" name="GarnetHub/7435" remote="all" revision="lineage-23.0" />
-    <project path="kernel/xiaomi/sm7435-modules" name="garnet-random/android_kernel_xiaomi_sm7435-modules" remote="all" revision="lineage-23.0" />
-    <project path="kernel/xiaomi/sm7435-devicetrees" name="garnet-random/android_kernel_xiaomi_sm7435-devicetrees" remote="all" revision="lineage-23.0" />
+    <project path="kernel/xiaomi/garnet" name="GarnetHub/7435" remote="all" revision="lineage-23.0" />
+    <project path="kernel/xiaomi/garnet-modules" name="garnet-random/android_kernel_xiaomi_sm7435-modules" remote="all" revision="lineage-23.0" />
+    <project path="kernel/xiaomi/garnet-devicetrees" name="garnet-random/android_kernel_xiaomi_sm7435-devicetrees" remote="all" revision="lineage-23.0" />
     
     <!-- Xiaomi Hardware -->
     <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="all" revision="lineage-23.0" />
