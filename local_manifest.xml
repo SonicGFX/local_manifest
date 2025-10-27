@@ -5,10 +5,6 @@
      <remote name="all"
           fetch="https://github.com/"
           clone-depth="1" />
-
-     <remote name="cod"
-          fetch="https://codeberg.org/"
-          clone-depth="1" />
      
      <!-- Sync trees -->
     <project path="device/xiaomi/garnet" name="GarnetHub/android_device_xiaomi_garnet_A16" remote="all" revision="16.0" />
@@ -29,6 +25,6 @@
      <remove-project name="crdroidandroid/android_packages_inputmethods_LatinIME" />
     <project name="SonicGFX/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="all" revision="16.0" />
 
-     <project name="SenseiDEVLinux/PicoGapps" path="vendor/gapps" remote="cod" revision="vic" />
-
+    <!-- Gapps -->
+    <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="lab" revision="baklava" />
 </manifest>
