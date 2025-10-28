@@ -18,11 +18,6 @@
     <project path="device/xiaomi/garnet" name="GarnetHub/android_device_xiaomi_garnet_A16" remote="all" revision="16.0" />
     <project path="vendor/xiaomi/garnet" name="garry-rogov/proprietary_vendor_xiaomi_garnet" remote="all" revision="16.0" />
     
-    <!-- Kernel trees -->
-    <project path="kernel/xiaomi/garnet" name="GarnetHub/7435" remote="all" revision="lineage-23.0" />
-    <project path="kernel/xiaomi/garnet-modules" name="garnet-random/android_kernel_xiaomi_sm7435-modules" remote="all" revision="lineage-23.0" />
-    <project path="kernel/xiaomi/garnet-devicetrees" name="garnet-random/android_kernel_xiaomi_sm7435-devicetrees" remote="all" revision="lineage-23.0" />
-    
     <!-- MiuiCamera -->
     <project name="los-garnet/device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="all" revision="lineage-22.2" />
     <project name="ramaadni/vendor_xiaomi_miuicamera-garnet" path="vendor/xiaomi/miuicamera-garnet" remote="cod" revision="lineage-22.2" />
