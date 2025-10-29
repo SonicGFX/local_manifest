@@ -6,10 +6,6 @@
           fetch="https://github.com/"
           clone-depth="1" />
 
-     <remote name="lab"
-        fetch="https://gitlab.com/"
-        clone-depth="1" />
-
      <remote name="cod"
           fetch="https://codeberg.org/"
           clone-depth="1" />
@@ -24,7 +20,4 @@
      
      <remove-project name="crdroidandroid/android_packages_inputmethods_LatinIME" />
     <project name="SonicGFX/android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" remote="all" revision="16.0" />
-
-    <!-- Gapps -->
-    <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="lab" revision="baklava" />
 </manifest>
